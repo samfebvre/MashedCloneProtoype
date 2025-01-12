@@ -1,0 +1,42 @@
+{
+  "storage_info": {
+    "permission": "Andrew_D",
+    "json_version": 1.0,
+    "storage_method": "TEXTURE_IMAGES",
+    "blender_version": [
+      2,
+      92,
+      0
+    ],
+    "extreme_pbr_version": [
+      4,
+      0,
+      100
+    ]
+  },
+  "material_info": {
+    "material_name": "Asphalt Smooth 009",
+    "author": "",
+    "website_name": "sharetextures",
+    "website_url": "www.sharetextures.com",
+    "license": "Cc0",
+    "license_description": "",
+    "license_link": "",
+    "original_name": "Asphalt_2"
+  },
+  "group_inputs_properties": {
+    "Specular": 0.05000000074505806,
+    "Roughness": 0.4000000059604645,
+    "Normal": 2.0
+  },
+  "material_properties": {
+    "use_screen_refraction": false,
+    "use_sss_translucency": false,
+    "blend_method": "OPAQUE",
+    "shadow_method": "OPAQUE",
+    "use_backface_culling": false,
+    "alpha_threshold": 0.5,
+    "refraction_depth": 0.0
+  },
+  "date": "04/05/2021"
+}

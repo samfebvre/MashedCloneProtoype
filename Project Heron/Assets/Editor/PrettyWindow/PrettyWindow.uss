@@ -1,0 +1,212 @@
+:root{
+    /* Neutral Colors */
+    --clr-neutral-10: #F2F2F2; /* Lightest Gray */
+    --clr-neutral-25: #E5E5E5; /* Very Light Gray */
+    --clr-neutral-50: #CCCCCC; /* Light Gray */
+    --clr-neutral-75: #A6A6A6; /* Medium Gray */
+    --clr-neutral-100: #808080; /* Dark Gray */
+    --clr-neutral-200: #595959; /* Very Dark Gray */
+    --clr-neutral-300: #333333; /* Nearly Black */
+
+    /* Primary Colors */
+    --clr-primary-10: #CCD9FF; /* Very Light Sky Blue */
+    --clr-primary-25: #99B3FF; /* Light Sky Blue */
+    --clr-primary-50: #6680FF; /* Sky Blue */
+    --clr-primary-75: #335CFF; /* Bright Sky Blue */
+    --clr-primary-100: #0040FF; /* Dark Sky Blue */
+    --clr-primary-200: #002DCC; /* Very Dark Sky Blue */
+    --clr-primary-300: #001999; /* Nearly Black Sky Blue */
+
+    /* Accent Colors */
+    --clr-accent-10: #FFFFCC; /* Very Light Yellow */
+    --clr-accent-25: #FFFF99; /* Light Yellow */
+    --clr-accent-50: #FFFF66; /* Soft Yellow */
+    --clr-accent-75: #FFFF33; /* Bright Yellow */
+    --clr-accent-100: #FFFF00; /* Dark Yellow */
+    --clr-accent-200: #CCCC00; /* Very Dark Yellow */
+    --clr-accent-300: #999900; /* Nearly Black Yellow */
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+
+    /* Font Sizes */
+    --font-size-small: 12px;
+    --font-size-medium: 16px;
+    --font-size-large: 20px;
+    --font-size-extra-large: 24px;
+    --font-size-heading: 32px;
+    
+}
+
+
+.buttonContainer-default {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+.buttonWrapper-default{
+    position:relative;
+}
+
+.button-default{
+    background-color: var(--clr-primary-50);
+    border-radius: 8px;
+    
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-height: 32px; 
+    font-size: var(--font-size-small);
+    -unity-font-style: bold;
+    
+    border-width: 0;
+    
+    transition-duration: 0.05s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, translate;
+
+    cursor: link;
+    
+}
+
+.boxShadow-default{
+    background-color: var(--clr-primary-300);
+    min-width: 1px;
+    height: 100%;
+    min-height: 1px;
+    translate: 0px 5px;
+    position: absolute;
+    
+    left: 3px;
+    right: 3px;
+
+    padding: 1px 6px;
+
+    border-radius: 8px;
+    
+    transition-property: translate;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.boxShadow-hover{
+    translate: 0px 3px;
+}
+
+.button-default:hover{
+    background-color: var(--clr-primary-25);
+    translate: 0px -5px;
+}
+
+.button-default:active{
+    background-color: var(--clr-accent-50);
+    color: var(--clr-neutral-300);
+    translate: 0px 1px;
+}
+
+.button-important{
+    background-color: var(--clr-primary-100);
+}
+
+:root{
+    background-color: var(--clr-primary-10);
+    border-radius: 8px;
+}
+
+.topLevelElement-default{
+    /*background-color: var(--clr-primary-10);*/
+    color: var(--clr-neutral-300);
+    padding: 8px;
+    /*border-radius: 8px;*/
+
+    -unity-font: url('project://database/Assets/Art/Fonts/Poppins-Medium.ttf?fileID=12800000&guid=886493030b5624a42903517f9a48dec8&type=3#Poppins-Medium');
+    -unity-font-definition: url('project://database/Assets/Art/Fonts/Poppins-Medium%20SDF.asset?fileID=11400000&guid=5e18901acbdf8ba4bb21e834d467281c&type=2#Poppins-Medium SDF');
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContainer-default{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    min-height: 50px;
+    border-radius: 16px;
+    border-width: 1.5px;
+    border-color: var(--clr-neutral-10);
+    background-color: var(--clr-neutral-100);
+}
+
+.title-default{
+    font-size: var(--font-size-heading);
+    color: var(--clr-neutral-300);
+    -unity-font-style: bold;
+}
+
+.textField-default{
+    background-color: var(--clr-neutral-200);
+    border-radius: 8px;
+    border-width: 0;
+    padding: 3px;
+    margin: 8px;
+    
+    align-self: center;
+}
+
+.linearGradient-default{
+    min-height: 100px;
+    /*background-color: var(--clr-primary-50);*/
+    /*background-image: url('project://database/Assets/Rectangle 1.svg');*/
+    border-radius: 16px;
+    flex-grow: 0;
+    border-width: 1.5px;
+    border-color: var(--clr-neutral-10);
+}
+
+.softShadow-default{
+    /*shadow-offset-x: 2;*/
+    /*shadow-offset-y: 2;*/
+    /*shadow-corner-radius: 3;*/
+    /*shadow-scale: 1;*/
+    /*color: var(--clr-neutral-300);*/
+    color: transparent;
+    margin: 5px;
+}
+
+.someContainer-default{
+    /*border-radius: 16px;*/
+    background-color: var(--clr-neutral-10);
+    min-height: 50px;
+    width: 100%;
+}
+
+.maskSVG{
+    background-image: url('project://database/Assets/Art/Textures/UI/Misc/Wobbly Banner Top.svg');
+
+    overflow: hidden;
+    min-height: 100px;
+}
+
+.maskedElem{
+    width: 100%;
+    height: 100%;
+}
+
+.heartIcon{
+    background-image: url('project://database/Assets/Lightning Bolt.svg');
+    width: 12px;
+    height: 16px;
+    -unity-background-image-tint-color: #FF0000;
+}
+
+.heartIconContainer{
+}

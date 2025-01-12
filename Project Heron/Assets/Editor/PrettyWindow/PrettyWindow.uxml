@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/PrettyWindow/PrettyWindow.uss?fileID=7433441132597879392&amp;guid=4830bc3c9f681964b87bf75fdde84591&amp;type=3#PrettyWindow" />
+    <ui:VisualElement style="flex-grow: 0; align-items: center;">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: column; justify-content: flex-start; width: 300px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;">
+            <Shadow shadow-corner-radius="3" shadow-scale="1" shadow-offset-x="2" shadow-offset-y="2" style="max-width: 100%;">
+                <ui:VisualElement style="flex-grow: 1; min-height: 50px; background-color: rgb(255, 255, 255); max-width: 100%;" />
+            </Shadow>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Lightning%20Bolt.svg?fileID=7388822144124034973&amp;guid=77847ba55ed758444a4e94620aa41403&amp;type=3#Lightning Bolt&apos;); -unity-background-image-tint-color: rgb(255, 0, 0); rotate: 43deg;" />
+</ui:UXML>
